@@ -1,0 +1,17 @@
+[project]
+name = "facealigner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.1.0",
+    "tqdm>=4.66.5",
+    "opencv-python>=4.10.0.84",
+    "dlib>=19.24.6",
+    "imutils>=0.5.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
